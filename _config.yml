@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you want to repeat across all pages.
+#
+# For technical reasons, this file is NOT reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn.getgrav.org/advanced/yaml
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Capacity Building Program on AI - IIT Ropar
+email: cbpai@iitrpr.ac.in
+description: >- # this means to ignore newlines until "baseurl:"
+  Capacity Building Program on Artificial Intelligence (CBPAI) under the Malaviya Mission 
+  Teacher Training Programme (MMTTP) - A Ministry of Education initiative for faculty members 
+  across higher education institutions in India.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: IITRopar
+github_username:  iitrpr
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file names in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# If you use Disqus for comments, uncomment and configure below
+# disqus:
+#   shortname: my_disqus_shortname
+
+# If you use Google Analytics, uncomment and configure below
+# google_analytics: UA-XXXXXXXX-X
